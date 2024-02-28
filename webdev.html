@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAC Web Dev</title>
+    <link rel = "icon" href = "mac.svg">
+
+</head>
+<body>
+    <div>
+        <nav>
+            // href
+            <a href = "#about">About</a>
+            <a href = "#portfolio">Portfolio</a>
+            <a href = "#skills">Skills</a>
+            <a href = "#contact">Contact</a>
+            </nav>
+    </div>
+    <div>
+        <h2>About</h2>
+        // p is for paragraphs
+        <p>Hi I'm <b>K</b>, I study Data Science at <b>Monash</b>.</p>
+        <img src = "https://via.placeholder.com/150" alt = "temp">
+    </div>
+    <div>
+        <h2>Portfolio</h2>
+        <div>
+            <h3>Project 1</h3>
+            <button>View</button>
+        </div>
+        <div>
+            <h2>Skills</h2>
+            
+            //ul
+            <ul>
+                //li list component
+                <li>Python</li>
+                <li>R</li>
+                <li>Tableau</li>
+                <li>HTML</li>
+                
+            </ul>
+        </div>
+        <div>
+            <h2>Contact</h2>
+
+            <form action = "/submit-contact" method = "post">
+                //label
+                <label for  = "name">Name:</label><br><br>
+                //input, required is where you fill in the details
+                <input type = "text" id = "name" name = "name" required>
+
+                <label for  = "email">Email:</label><br><br>
+                <input type = "text" id = "email" name = "email" required>
+
+                <label for  = "message">Message:</label><br><br>
+                <textarea type = "message" id = "Message" name = "message"></textarea><br><br>
+
+                <input type = 'submit' value = "Submit">
+
+            
+
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <footer>
+            <p>This is the end of my site.</p>
+        </footer>
+    </div>
+
+
+</body>
+</html>
